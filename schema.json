@@ -8,7 +8,6 @@
         "description": "Performs CRUD operations for uniubi workflows",
         "datasource": {
             "token": {
-                // "type": "password",
                 "type": "string",
                 "required": true,
                 "display": "API Key"
@@ -28,77 +27,12 @@
             "productGuid": {
                 "type": "string",
                 "required": true
-            },
+            }
         },
         "query": {
             "RequestToken": {
                 "type": "json"
-            },
-            // "create": {
-            //     "type": "json"
-            // },
-            // "read": {
-            //     "type": "fields",
-            //     "fields": {
-            //         "id": {
-            //             "type": "number",
-            //             "required": false
-            //         },
-            //         "active": {
-            //             "type": "string",
-            //             "required": false
-            //         },
-            //         "tags": {
-            //             "type": "string",
-            //             "required": false
-            //         },
-            //         "limit": {
-            //             "type": "number",
-            //             "required": false,
-            //             "default": 100
-            //         },
-            //         "cursor": {
-            //             "type": "string",
-            //             "required": false
-            //         }
-            //     }
-            // },
-            // "update": {
-            //     "type": "fields",
-            //     "fields": {
-            //         "id": {
-            //             "type": "string",
-            //             "required": true
-            //         },
-            //         "body": {
-            //             "type": "json",
-            //             "required": true
-            //         }
-            //     }
-            // },
-            // "delete": {
-            //     "type": "fields",
-            //     "fields": {
-            //         "id": {
-            //             "type": "string",
-            //             "required": true
-            //         }
-            //     }
-            // },
-            // "activate": {
-            //     "type": "fields",
-            //     "fields": {
-            //         "id": {
-            //             "type": "string",
-            //             "required": true
-            //         },
-            //         "active": {
-            //             "type": "string",
-            //             "required": "true",
-            //             "default": "true"
-            //         }
-            //     }
-            // }
+            }
         }
     }
 }
