@@ -1,21 +1,20 @@
 # N8n Workflows
 
-Budibase datasource plugin for n8n workflows
+Budibase datasource plugin for uniubi
 
- - Create workflow
- - Read workflow (all or by id)
- - Update workflow
- - Delete workflow
- - Activate workflow (or deactivate)
+ - Pull person
+ - Create person
+ - Delete person
+ - Update image
 
 # Description
-CRUD operations for n8n Workflows
+CRUD operations for uniubi person
 
 Find out more about [Budibase](https://github.com/Budibase/budibase).
 
 ## Instructions
 
-To build your new  plugin run the following in your Budibase CLI:
+To build your new plugin run the following in your Budibase CLI:
 ```
 budi plugins --build
 ```
