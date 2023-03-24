@@ -7,15 +7,6 @@
         "type": "API",
         "description": "Performs CRUD operations for uniubi workflows",
         "datasource": {
-            "token": {
-                "type": "string",
-                "required": true,
-                "display": "API Key"
-            },
-            "tokenExpire": {
-                "type": "number",
-                "required": true
-            },
             "appKey": {
                 "type": "string",
                 "required": true
@@ -24,15 +15,28 @@
                 "type": "string",
                 "required": true
             },
-            "productGuid": {
+            "projectGuid": {
                 "type": "string",
                 "required": true
             }
         },
         "query": {
-            "RequestToken": {
-                "type": "json"
-            }
+            "read": {
+                "type": "fields",
+                "fields": {
+                    "page": {
+                        "type": "number",
+                        "required": false
+                    },
+                    "pageSize": {
+                        "type": "number",
+                        "required": false,
+                        "default": 100
+                    }
+                }
+            },
+            "accessToken": {},
+            "getAll": {}
         }
     }
 }

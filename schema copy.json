@@ -28,12 +28,9 @@
             "productGuid": {
                 "type": "string",
                 "required": true
-            },
+            }
         },
         "query": {
-            "RequestToken": {
-                "type": "json"
-            },
             // "create": {
             //     "type": "json"
             // },
